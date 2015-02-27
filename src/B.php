@@ -19,7 +19,7 @@ class B {
     public function bar($number)
     {
         return $this->a->foo(
-            function () use ($number) {
+            function() use ($number) {
                 return $number * 5;
             }
         );
