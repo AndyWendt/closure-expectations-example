@@ -1,0 +1,21 @@
+{
+    "name": "andy/php_sandbox",
+    "description": "sandbox testing",
+    "autoload": {
+      "psr-4": {
+        "Example\\": "src/"
+      }
+    },
+    "require": {
+        "mockery/mockery": "0.9.*",
+        "phpunit/phpunit": "4.5.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andy Wendt",
+            "email": "andy@awendt.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
